@@ -1,3 +1,9 @@
+# DEMO
+Vous pouvez trouver une vidéo de démonstration ici : https://drive.google.com/file/d/1vH7p9WEMsJ1xraCI6v5TgCURrcQsLf6Z/view?usp=drive_link
+
+# Présentation PowerPoint
+Vous pouvez trouver le diapo de présentation de notre projet ici : https://www.canva.com/design/DAF6L5jVVXU/0s_uTpzlZPnXXC4i86sSSg/view?utm_content=DAF6L5jVVXU&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
 # Code pour la stéganographie et le stockage IPFS (steganofinal2.py)
 ## Quel est le but du code ? 
 
@@ -48,5 +54,3 @@ Sur l’interface, il faut d’abord cliquer sur l’image du manga, puis clique
 - Un utilisateur ne peut pas recevoir un lien de lecture d’un chapitre sans l’avoir acheté avant.
 - Lorsqu’un utilisateur achète un chapitre, il reçoit un lien qui est unique et qui lui est associé. Ainsi, si le chapitre en question se retrouve sur internet, grâce à la stéganographie, on pourra récupérer le numéro de l’exemplaire et ainsi récupérer l’utilisateur qui l’avait acheté.
 
-# DEMO
-Vous pouvez trouver une vidéo de démonstration ici : https://drive.google.com/file/d/1vH7p9WEMsJ1xraCI6v5TgCURrcQsLf6Z/view?usp=drive_link 

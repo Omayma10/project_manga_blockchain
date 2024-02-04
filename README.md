@@ -5,7 +5,7 @@ Ce code permet de prendre une image au format PNG en entrée et d'y écrire un m
 ## Comment lancer le code ?
 
 - Etape 1 : Installer Python et un IDE sur votre PC
-- Etape 2 : Installer les librairies suivantes : PIL , boto3
+- Etape 2 : Installer les librairies suivantes : pillow , boto3
 - Etape 3 : Créer un compte sur Filebase
 - Etape 4 : Modifier les variables “aws_access_key_id” et “aws_secret_access_key” avec les informations du compte
 - Etape 5 : Remplacer la variable “msg” par le message que vous souhaitez cacher dans l’image
@@ -47,5 +47,6 @@ Sur l’interface, il faut d’abord cliquer sur l’image du manga, puis clique
 - Un utilisateur ne peut pas acheter un même chapitre en 2 exemplaires, sinon il reçoit une erreur.
 - Un utilisateur ne peut pas recevoir un lien de lecture d’un chapitre sans l’avoir acheté avant.
 - Lorsqu’un utilisateur achète un chapitre, il reçoit un lien qui est unique et qui lui est associé. Ainsi, si le chapitre en question se retrouve sur internet, grâce à la stéganographie, on pourra récupérer le numéro de l’exemplaire et ainsi récupérer l’utilisateur qui l’avait acheté.
+
 # DEMO
 Vous pouvez trouver une vidéo de démonstration ici : https://drive.google.com/file/d/1vH7p9WEMsJ1xraCI6v5TgCURrcQsLf6Z/view?usp=drive_link 

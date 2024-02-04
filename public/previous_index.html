@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaChain</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Manga and WebToon Blockchain Platform</h1>
+
+    <div class="container">
+        <!-- Left Zone: Control Panel -->
+        <div class="control-panel">
+            <div id="mangakaSection">
+                <h2>Author Section</h2>
+                <div id="mangakaSection">
+                    <input type="text" id="mangaTitle" placeholder="Manga Title">
+                    <input type="text" id="mangaAuthor" placeholder="Manga Author Address">
+                    <button onclick="createManga()">Create Manga</button><br>
+            
+                    <input type="number" id="mangaId" placeholder="Manga ID">
+                    <input type="text" id="chapterTitle" placeholder="Chapter Title">
+                    <input type="text" id="chapterContentURI" placeholder="Chapter Content URI">
+                    <input type="number" id="chapterPrice" placeholder="Chapter Price (in Wei)">
+                    <button onclick="addChapter()">Add Chapter</button>
+                </div>
+            </div>
+
+            <div id="userSection">
+                <h2>User Section</h2>
+                <div id="userSection">
+                    <input type="number" id="buyMangaId" placeholder="Manga ID">
+                    <input type="number" id="buyChapterId" placeholder="Chapter ID">
+                    <button onclick="buyChapter()">Buy Chapter</button><br>
+            
+                    <input type="number" id="readMangaId" placeholder="Manga ID">
+                    <input type="number" id="readChapterId" placeholder="Chapter ID">
+                    <button onclick="getChapterContent()">Read Chapter</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Zone: Book Shop -->
+        <div class="book-shop">
+            <h2>Available Manga Chapters</h2>
+            <!-- Manga chapters display area -->
+        </div>
+    </div>
+</body>
+</html>
+

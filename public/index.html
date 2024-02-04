@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Marketplace</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- App Bar with Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Manga Marketplace</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="authorSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select Author
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="authorSelector">
+                        <!-- Dynamically populated with authors -->
+                    </div>
+                </li>
+            </ul>
+            <!-- Replace the existing 'My Library' button in index.html -->
+            <button class="btn btn-outline-success my-2 my-sm-0" onclick="window.location.href='library.html'">My Library</button>
+
+        </div>
+    </nav>
+
+    <!-- Main Content Area with Bootstrap Container -->
+    <div class="container mt-4">
+        <!-- Section for Displaying Mangas -->
+        <div id="mangaDisplay" class="row">
+            <!-- Dynamically populated with manga cards -->
+        </div>
+
+        <!-- Section for Displaying Chapters of a Selected Manga -->
+        <div id="chapterDisplay" class="row mt-4" style="display: none;">
+            <!-- Dynamically populated with chapters -->
+        </div>
+
+        <!-- Section for Displaying User's Library -->
+        <div id="libraryDisplay" class="row mt-4" style="display: none;">
+            <!-- Dynamically populated with user's purchased chapters -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Your JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>

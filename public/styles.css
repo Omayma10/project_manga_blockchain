@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* App Bar Styles */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.dropdown button {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#libraryAccess button {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.manga, .chapter {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 1.25rem;
+}
+
+.card-img-top {
+    height: 350px;
+    border-top-left-radius : 1.25rem;
+    border-bottom-left-radius : 1.25rem;
+}
+
+.card {
+    align-items: center;
+    border-radius: 1.25rem;
+    flex-direction: row;
+}
+
+.large-font {
+    font-size: 1.25rem; /* Adjust the size as needed */
+}
+
+.card.border-primary {
+    border-width: 2px;
+    border-color: #ff70b0; /* Bootstrap primary color */
+}
+

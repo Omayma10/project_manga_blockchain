@@ -1,4 +1,4 @@
-# Code pour la stéganographie et le stockage IPFS
+# Code pour la stéganographie et le stockage IPFS (steganofinal2.py)
 ## Quel est le but du code ? 
 
 Ce code permet de prendre une image au format PNG en entrée et d'y écrire un message caché dans les pixels rouge. Le message caché permet de savoir quelle numéro d'exemplaire il s’agit, afin de retracer les leakers. Dès une copie est généré alors l’image est envoyé sur une plateforme de stockage IPFS (stockage décentralisé Filebase)
